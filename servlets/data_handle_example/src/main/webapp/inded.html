@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration</title>
+</head>
+<body>
+    <h2>User Registration Form</h2>
+    <form action="RegisterServlet" method="POST">
+        Name: <input type="text" name="name" /><br><br>
+        Email: <input type="email" name="email" /><br><br>
+        Gender: 
+        <input type="radio" name="gender" value="Male" /> Male
+        <input type="radio" name="gender" value="Female" /> Female<br><br>
+        
+        Subjects:
+        <input type="checkbox" name="subject" value="Java" /> Java
+        <input type="checkbox" name="subject" value="Python" /> Python
+        <input type="checkbox" name="subject" value="SQL" /> SQL<br><br>
+        
+        Country:
+        <select name="country">
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+        </select><br><br>
+        
+        <input type="submit" value="Register" />
+    </form>
+</body>
+</html>
