@@ -1,0 +1,35 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>example.SetCookieServlet</servlet-name>
+        <servlet-class>example.SetCookieServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>example.SetCookieServlet</servlet-name>
+        <url-pattern>/set-cookie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>example.ReadCookieServlet</servlet-name>
+        <servlet-class>example.ReadCookieServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>example.ReadCookieServlet</servlet-name>
+        <url-pattern>/read-cookie</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>example.DeleteCookieServlet</servlet-name>
+        <servlet-class>example.DeleteCookieServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>example.DeleteCookieServlet</servlet-name>
+        <url-pattern>/delete-cookie</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+</web-app>

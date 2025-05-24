@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+                             http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <display-name>HeaderDemoApp</display-name>
+
+    <!-- Servlet Definition -->
+    <servlet>
+        <servlet-name>example.Http_req_header</servlet-name>
+        <servlet-class>example.Http_req_header</servlet-class>
+    </servlet>
+
+    <!-- Servlet Mapping -->
+    <servlet-mapping>
+        <servlet-name>example.Http_req_header</servlet-name>
+        <url-pattern>/Http_req_header</url-pattern>
+    </servlet-mapping>
+
+</web-app>
